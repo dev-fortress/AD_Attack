@@ -24,12 +24,17 @@ The tool works on the Kali Linux version as some packages are installed by defau
 The tool is very easy to use, you just need to edit the script and change the global variables that are located at the beginning of the script for the ones that correspond to your environment::
 
 AD_IP="172.26.16.117"
+
 Domain="dark.local"
+
 Domain_Name="dc=dark,dc=local"
+
 Users_File='users_test.txt'
+
 Dict_JTR='/usr/share/john/password.lst'
 
 After that, just run the command and wait for the results:
+
 sh AD_Attack.sh
 
 ## ROADMAP
